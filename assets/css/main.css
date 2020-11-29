@@ -73,6 +73,12 @@ table {
 body {
   -webkit-text-size-adjust: none; }
 
+.Rlogo {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+
 .imgcontainer {
   position : relative;
   text-align: center;
@@ -2537,7 +2543,7 @@ body {
   z-index: 10001; }
   #header > .logo {
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 10rem;
     font-weight: 600;
     height: inherit;
     line-height: inherit;
