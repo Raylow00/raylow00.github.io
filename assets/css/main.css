@@ -73,6 +73,113 @@ table {
 body {
   -webkit-text-size-adjust: none; }
 
+.imgcontainer {
+  position : relative;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.centered_top {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.centered_bottom {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.block_centered {
+  display: block;
+  margin-left: 30%;
+  margin-right: 50%;
+  width: 50%;
+}
+
+.highlights .dialog {
+  border-radius: 4px;
+  height: 100%;
+  padding: 3rem;
+  text-align: center; 
+  color: white;
+  background: linear-gradient(135deg, #ce1b28 0%, #111111 74%); }
+  .highlights .dialog .icon {
+    font-size: 5rem; 
+  }
+
+  .highlights .cartoon {
+    border-radius: 4px;
+    height: 100%;
+    padding: 3rem;
+    text-align: center; 
+    color: white;
+    background: linear-gradient(135deg, #63ce1b 0%, #111111 74%); }
+    .highlights .cartoon .icon {
+      font-size: 5rem; 
+  }
+
+  .highlights .wrencil {
+    border-radius: 4px;
+    height: 100%;
+    padding: 3rem;
+    text-align: center; 
+    color: white;
+    background: linear-gradient(135deg, #1b36ce 0%, #111111 74%); }
+    .highlights .wrencil .icon {
+      font-size: 5rem; 
+  }
+
+  .highlights .film {
+    border-radius: 4px;
+    height: 100%;
+    padding: 3rem;
+    text-align: center; 
+    color: white;
+    background: linear-gradient(135deg, #ce1bbf 0%, #111111 74%); }
+    .highlights .film .icon {
+      font-size: 5rem; 
+  }
+
+  .highlights .dance {
+    border-radius: 4px;
+    height: 100%;
+    padding: 3rem;
+    text-align: center; 
+    color: white;
+    background: linear-gradient(135deg, #fff021 0%, #111111 74%); }
+    .highlights .dance .icon {
+      font-size: 5rem; 
+  }
+
+  .highlights .neversong {
+    border-radius: 4px;
+    height: 100%;
+    padding: 3rem;
+    text-align: center; 
+    color: white;
+    background: linear-gradient(135deg, #ff9a02 0%, #111111 74%); }
+    .highlights .neversong .icon {
+      font-size: 5rem; 
+  }
+
 mark {
   background-color: transparent;
   color: inherit; }
@@ -1817,8 +1924,8 @@ ul.icons {
   background-size: cover;
   border-top: 0;
   display: -ms-flexbox;
-  height: 35rem !important;
-  min-height: 35rem;
+  height: 50rem !important;
+  min-height: 50rem;
   overflow: hidden;
   position: relative;
   text-align: center;
@@ -2010,12 +2117,12 @@ ul.icons {
     width: 100%;
     z-index: 1; }
   #banner:after {
-    background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
+    /*background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);*/
     content: ' ';
     display: block;
     height: 100%;
     left: 0;
-    opacity: 0.6;
+    opacity: 0.85;
     position: absolute;
     top: 0;
     webkit-linear-gradientidth: 100%;
@@ -2058,10 +2165,10 @@ ul.icons {
 
 /* CTA */
 #cta {
-  background-color: #ce1b28;
+  background-color: #ffffff;
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url(../../images/cta01.jpg);
+  background-image: url(../../images/characters.png);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
